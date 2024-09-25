@@ -75,6 +75,8 @@ export function generateProxies(config: Config, components: ComponentCompilerMet
     name: file.name,
     meta: file.meta,
     content: svelte.compile(file.content, {
+      // legacy: outputTarget.legacy,
+      // css: false,
       name: file.name,
       accessors: outputTarget.accessors,
       preserveComments: true,
