@@ -124,7 +124,7 @@ export const svelteProxyOutput = async (
         filePath,
         [
           ignoreChecks(),
-          `import { Components, JSX } from '${outputTarget.componentCorePackage}';\n`,
+          `import type { Components, JSX } from '${outputTarget.componentCorePackage}';\n`,
           generateTypings(meta),
           replaceMethodDefs(meta, generate$$TypeDefs(meta, content)),
         ].join('\n')
