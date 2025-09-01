@@ -1,6 +1,6 @@
 {
   "name": "@revolist/svelte-output-target",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Svelte output target for @stencil/core components.",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -36,14 +36,14 @@
     "url": "https://github.com/revolist/svelte-output-target/issues"
   },
   "peerDependencies": {
-    "@stencil/core": "^4.29.2"
+    "@stencil/core": "^4.36.3"
   },
   "devDependencies": {
-    "@types/node": "^22.14.1",
+    "@types/node": "^24.3.0",
     "estree-walker": "^3.0.3",
     "rimraf": "^6.0.1",
     "rollup": "^4.40.0",
-    "svelte": "^5.28.2",
+    "svelte": "^5.38.6",
     "typescript": "^5.8.3"
   },
   "jest": {
